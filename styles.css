@@ -1,0 +1,37 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+nav a {
+  font-size: 1.1rem;
+}
+
+.banner img {
+  width: 100%;
+  height: auto;
+}
+
+.teaser-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#menu img {
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+}
